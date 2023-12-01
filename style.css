@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Croissant+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Croissant+One&family=IBM+Plex+Serif&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+}
+a {
+    color: #4169e1;
+    text-decoration: none;
+}
+
+.hd{
+    font-family: 'Croissant One', cursive;
+    display: flex;
+    padding-left: 125px;
+}
+/* ############ Header ##########################  */
+#name-vishal{
+    font-family: 'Comfortaa', cursive;
+    font-size: larger;
+}
+
+#name{
+    padding: 30px 20px 10px ;
+}
+
+.social-media{
+    display: flex;
+    gap: 75px;   
+    padding: 0 0 20px 25px;
+}
+
+i{
+    padding-right: 10px;
+}
+
+h1{
+    padding: 50px;
+
+}
+
+
+/* ############ Con */
+
+.con{
+    border: 2px solid rgb(64, 64, 66);
+    background-color: #4169e1;
+    padding: 100px 200px 100px 200px;
+    margin: 20px;
+    color: white;
+    /* line-height: 1.6; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.con1 h3{
+    padding: 50px 0 100px 0 ;
+    letter-spacing: 2.5px;
+    word-spacing: 5px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: x-large;
+}
+
+
+.bn30 {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+  }
+  
+  .bn30 .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  }
+  
+  .bn30:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #0e0e10;
+  }
+  
+  .bn30:hover {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+  }
+  
+  .bn30:hover .text {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  }
+.con1 p{
+    padding: 10px;
+}
+
+#pic{
+    width: 25%;
+    /* margin: 100px 50px 0 0; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ##########  Education ##################################################################### */
+
+#edu-header{
+    padding: 20px 0 20px 20px;
+}
+
+#gpp-logo,
+#apnaCollege-logo,
+#sd-logo{
+    width: 150px;
+    height: 150px;
+    /* padding-top: 25px; */
+}
+
+.edu-diploma, 
+.edu-certification,
+.edu-sd {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.edu-diploma-desc-head,
+.edu-certification-desc-head,
+.edu-sd-desc-head{
+    padding: 20px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#cse,
+#mern,
+#devops{
+    padding: 0 20px 10px 0;
+}
+#cse-desc,
+#mern-desc,
+#devops-desc{
+    line-height: 1.6;
+}
+
+.edu-diploma-desc-body,
+.edu-certification-desc-body,
+.edu-sd-desc-body{
+    padding: 0 20px 10px 20px;
+}
+
+.edu-diploma:hover,
+.edu-certification:hover,
+.edu-sd:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.nav{
+    display: flex;
+}
+
+/* #############  About  ################################# */
+.about{
+    padding: 100px;
+    font-size: larger;
+    line-height: 1.6;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+#about1{
+    width: 40%;
+}
+
+/* ##################   Skills  ################# */
+
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 0 75px;
+}
+
+#skill-1-img,
+#skill-2-img,
+#skill-3-img,
+#skill-4-img,
+#skill-5-img,
+#skill-6-img,
+#skill-7-img,
+#skill-8-img{
+    width: 150px;
+    height: 150px;
+}
+
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4,
+.skill-5,
+.skill-6,
+.skill-7,
+.skill-8{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+#skill-1-head,
+#skill-2-head,
+#skill-3-head,
+#skill-4-head,
+#skill-5-head,
+#skill-6-head,
+#skill-7-head,
+#skill-8-head{
+    display: flex;
+    justify-content: space-between;
+
+}
+.skill-1-card,
+.skill-2-card,
+.skill-3-card,
+.skill-4-card,
+.skill-5-card,
+.skill-6-card,
+.skill-7-card,
+.skill-8-card{
+    padding: 10px 20px 10px 20px;
+}
+
+#skill-1-body,
+#skill-2-body,
+#skill-3-body,
+#skill-4-body,
+#skill-5-body,
+#skill-6-body,
+#skill-7-body,
+#skill-8-body{
+    padding: 10px 0 10px 0;
+}
+
+.skill-1:hover ,
+.skill-2:hover,
+.skill-3:hover,
+.skill-4:hover,
+.skill-5:hover ,
+.skill-6:hover,
+.skill-7:hover,
+.skill-8:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+
+/*  #############   Connects   ############# */
+
+.connect-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 0 75px;
+}
+
+#mail-img,
+#x-img,
+#linkedin-img,
+#git-img{
+    width: 150px;
+    height: 150px;
+}
+
+.mail,
+.x, 
+.linkedin,
+.git{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+#mail-head,
+#x-head,
+#linkedin-head,
+#git-head{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mail-card,
+.x-card,
+.linkedin-card,
+.git-card{
+    padding: 10px 20px 10px 20px;
+}
+
+#mail-body,
+#x-body,
+#linkedin-body,
+#git-body,
+#skill-5-body,
+#skill-6-body,
+#skill-7-body,
+#skill-8-body{
+    padding: 10px 0 10px 0;
+}
+
+.mail:hover ,
+.x:hover,
+.linkedin:hover,
+.git:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
